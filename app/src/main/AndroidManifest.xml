@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mahendran.androidbasic">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ButtonClickMethodOne" />
+        <activity android:name=".ButtonClickMethodTwo" />
+        <activity android:name=".ButtonClickMethodThree" />
+        <activity android:name=".ActivityLifecycle" />
+        <activity android:name=".ExplicitIntent.ExplicitIntentMainActivity" />
+        <activity android:name=".ExplicitIntent.ActivityA" />
+        <activity android:name=".IntentExample" />
+        <activity android:name=".FrameLayout" />
+        <activity android:name=".MyCheckBox" />
+        <activity android:name=".MyToggleButton" />
+        <activity android:name=".MyListView" />
+        <activity android:name=".MySendSMS" />
+        <activity android:name=".SharedPreferences.MySharedff" />
+        <activity android:name=".SharedPreferences.MySharedPreference" />
+        <activity android:name=".SharedPreferences.MyShared" />
+        <activity android:name=".MainAllActivity"></activity>
+        <activity android:name=".MyListViewImages">
+
+        </activity>
+        <activity android:name=".MyListViewImagesText">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
